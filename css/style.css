@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800');
+
+html {
+  font-family: 'Montserrat', Calibri, Trebuchet, sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+
+}
+
+.buy-now-button {
+  margin-top: 10px;
+}
+
+.brand-logo img {
+  width: 85%;
+  height: auto;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 0;
+}
+
+.nav-link {
+  color: rgba(255,255,255,.9);
+}
+
+p {
+  line-height: 2rem;
+}
+
+h5, h1, h3, p {
+  color: #2E2E2E;
+}
+
+.button-collapse {
+  color: #2E2E2E;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+
+    nav .brand-logo {
+        left: 25%;
+    }
+
+    .brand-logo img {
+        width: 65%;
+        height: auto;
+        margin-top: 12px;
+    }
+
+  .parallax-container .section {
+    top: 10%;
+  }
+  #index-banner .section {
+    top: 8%;
+  }
+
+  header {
+      font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width : 830px) {
+    nav .brand-logo {
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+    .header {
+        font-size: 2.3rem;
+    }
+
+    .row h3 {
+        font-size: 2rem;
+    }
+
+    .h5-hide {
+        display: none;
+    }
+
+    .button-hide, .row > h6{
+        display: none;
+    }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
