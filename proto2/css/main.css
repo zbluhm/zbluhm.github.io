@@ -1,0 +1,108 @@
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+li > h1 {
+    letter-spacing: 5px;
+}
+
+h6 > strong {
+    color: #0e1111;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #2b3f66;
+}
+
+.top-nav-collapse {
+    background-color: #2b3f66;
+}
+
+footer.page-footer {
+    background-color: #2b3f66;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2b3f66;
+    }
+}
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+/*Caption*/
+
+.flex-center {
+    color: #fff;
+}
+
+
+.md-form label.active {
+    transform: translateY(-45%);
+}
+
+@media (min-width: 776px) {
+    .carousel .view ul li {
+        display: inline;
+    }
+    .carousel .view .full-bg-img ul li .flex-item {
+        margin-bottom: 1.5rem;
+    }
+}
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #0e1111 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+
+@media only screen and (max-width : 767px) {
+    .card {
+        height: auto !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
